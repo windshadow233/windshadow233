@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=windshadow233&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![windshadow233's GitHub stats](https://github-readme-stats.vercel.app/api?username=windshadow233&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=windshadow233&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
