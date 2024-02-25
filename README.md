@@ -25,3 +25,5 @@ Here are some ideas to get you started:
 - 🔭 I tend to work on my interests.
 - 💬 Lauguage: Fluent in Mandarin, with elementary proficiency in English, and a basic understanding of Japanese.
 - 📫 How to reach me: [Telegram](https://t.me/windshadow233)、[Email](mailto:fyz23333@gmail.com)
+
+![Snake](https://raw.githubusercontent.com/windshadow233/windshadow233/output/github-contribution-grid-snake.svg)
