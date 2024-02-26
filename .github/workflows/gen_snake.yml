@@ -1,17 +1,13 @@
-name: generate-snake
+name: Gen Github Snake
 
 on:
-  # 每天自动运行一次
+  # each day
   schedule:
     - cron: "0 0 * * *"
 
-  # 允许手动触发执行
+  # run workflow manually and on each commit
   workflow_dispatch:
-
-  # 每当push到master分支时自动执行
-  push:
-    branches:
-    - master
+  push: {branches: ["master", "main"]}
     
 jobs:
   generate:
@@ -25,14 +21,21 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-contribution-grid-snake.svg
-            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-snake.svg?palette=github-light
+            github-snake-dark.svg?palette=github-dark
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: Push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v2.6.0
+      - name: Push snake to gist
+        uses: exuanbo/actions-deploy-gist@v1
         with:
-          target_branch: output
-          build_dir: assets
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: $${ secrets.GIST_TOKEN }
+          gist_id: 49c7e88f47a921045ef17baee55e1f05
+          gist_file_name: github-snake.svg
+          file_path: github-snake.svg
+      - name: Push dark snake to gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: $${ secrets.GIST_TOKEN }
+          gist_id: 49c7e88f47a921045ef17baee55e1f05
+          gist_file_name: github-snake-dark.svg
+          file_path: github-snake-dark.svg
