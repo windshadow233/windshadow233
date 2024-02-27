@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-<img height=180 align="center" src="https://github-readme-stats.vercel.app/api?username=windshadow233&include_all_commits=true&count_private=true&show_icons=true&theme=tokyonight" />&emsp;<img height=180 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=windshadow233&layout=compact&theme=tokyonight" />
+<img height=180 align="center" src="https://github-readme-stats.vercel.app/api?username=windshadow233&count_private=true&show_icons=true&theme=tokyonight" />&emsp;<img height=180 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=windshadow233&layout=compact&theme=tokyonight" />
 
 - 🎓 I currently major in 📊 Big Data & 🤖 Deep Learning at University of Science and Technology of China (USTC).
 - 😇 My technical skills: 🐍 Python, 🐧 Linux, 🌐 JavaScript, 🖥️ C++ (learning), and additional skills like HTML & CSS.
