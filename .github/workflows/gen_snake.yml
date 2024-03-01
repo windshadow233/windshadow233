@@ -23,7 +23,7 @@ jobs:
           outputs: |
             github-snake.svg?palette=github-light
             github-snake-dark.svg?palette=github-dark
-      # push the content of <build_dir> to a GitHub Gist
+      # push the snakes to a GitHub Gist
       - name: Push snake to gist
         uses: exuanbo/actions-deploy-gist@v1
         with:
