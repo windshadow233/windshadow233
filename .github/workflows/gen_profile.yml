@@ -87,5 +87,11 @@ jobs:
           gist_id: 49c7e88f47a921045ef17baee55e1f05
           gist_file_name: github-snake-dark.svg
           file_path: github-snake-dark.svg
-      - name: keep alive
-        uses: gautamkrishnar/keepalive-workflow@master
+  keepalive-job:
+    name: Keepalive Workflow
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/keepalive-workflow@v2
