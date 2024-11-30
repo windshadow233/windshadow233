@@ -3,7 +3,7 @@ name: Generate Github Profile
 on:
   # each day
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 16 * * *"
 
   # run workflow manually and on each commit
   workflow_dispatch:
