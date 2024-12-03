@@ -23,7 +23,9 @@ eric@ustc:~$ ls skills
 Python  Linux  JavaScript  C++ (learning)  HTML  CSS
 
 eric@ustc:~$ echo $LANG
-zh_CN.UTF-8 (Fluent), en_US.UTF-8 (Elementary Proficiency), ja_JP.UTF-8 (Basic Understanding)
+zh_CN.UTF-8 (Fluent)
+en_US.UTF-8 (Elementary Proficiency)
+ja_JP.UTF-8 (Basic Understanding)
 
 eric@ustc:~$ gpg --list-keys --keyid-format LONG
 
