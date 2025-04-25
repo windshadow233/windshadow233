@@ -24,7 +24,7 @@ jobs:
             github-snake.svg?palette=github-light
             github-snake-dark.svg?palette=github-dark
       - name: Generate github metric
-        uses: lowlighter/metrics@latest
+        uses: gh-metrics/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: windshadow233
