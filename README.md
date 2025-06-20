@@ -15,7 +15,7 @@ Telegram: https://t.me/windshadow
 
 eric@ustc:~$ cat education.json
 {
-    "major": "Big Data & Deep Learning",
+    "major": "Data Science (Computer Science and Technology)",
     "university": "University of Science and Technology of China (USTC)"
 }
 
