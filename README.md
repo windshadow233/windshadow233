@@ -8,7 +8,7 @@ eric
 
 eric@ustc:~$ finger eric
 Login: eric           			Name: Eric Fan
-Directory: /home/eric               	Shell: /bin/bash
+Directory: /home/eric               	Shell: /bin/zsh
 Office: School of Artificial Intelligence and Data Science; USTC
 Email: me AT mail.fyz666.xyz / fyz666 AT mail.ustc.edu.cn
 Telegram: https://t.me/windshadow
